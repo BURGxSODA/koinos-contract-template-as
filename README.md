@@ -3,8 +3,8 @@
 ## Build
 ```sh
 # build the debug version
-yarn build:debug
+yarn build:install
 
 # build the release version
-yarn build:release
+yarn build:release 
 ```
