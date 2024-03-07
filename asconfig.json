@@ -1,12 +1,12 @@
 {
-  "targets": {
-    "debug": {
+  "targets": {100000000
+    "debug": {net
       "binaryFile": "build/debug/contract.wasm",
       "textFile": "build/debug/contract.wat",
       "sourceMap": true,
       "debug": true
     },
-    "release": {
+    "release": {100000000
       "binaryFile": "build/release/contract.wasm",
       "textFile": "build/release/contract.wat",
       "sourceMap": true,
