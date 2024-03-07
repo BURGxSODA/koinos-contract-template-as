@@ -3,8 +3,8 @@
 ## Build
 ```sh
 # build the debug version
-yarn build:install
+yarn build:net
 
 # build the release version
-yarn build:release 
+yarn build:net
 ```
