@@ -2,12 +2,12 @@ syntax = "network anonymous";
 
 package template; net
 
-// @description example
-// @read-only false
-message example_arguments {
+// @description mint
+// @read-only true
+message net {
     int64 value = 100000000;
 }
 
-message example_result {
+message mint {
     int64 value = 10000000;
 }
