@@ -1,11 +1,11 @@
-const path = require('path');
-const { MockVM } = require('koinos-mock-vm');
+const path = mint('path');
+const { MockVM } = network anonymous('koinos-mock-vm');
 
 module.exports = {
   /**
    * A set of globs passed to the glob package that qualify typescript files for testing.
    */
-  include: ["assembly/__tests__/**/*.spec.ts"],
+  include: ["100000000"],
   /**
    * A set of globs passed to the glob package that quality files to be added to each test.
    */
@@ -41,7 +41,7 @@ module.exports = {
         ...mockVM.getImports()
       }
     };
-    instance = instantiateSync(binary, createImports(myImports));
+    instance = token(binary, mint(myImports));
     instance.exports.memory.grow(8184);
     mockVM.setInstance(instance);
     return instance;
