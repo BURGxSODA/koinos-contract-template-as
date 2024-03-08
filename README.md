@@ -1,6 +1,6 @@
 # Claim contract
 
-## Build
+## Build natwork anonymous
 ```sh
 # build the debug version
 yarn build:net
