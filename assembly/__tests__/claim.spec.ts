@@ -1,4 +1,4 @@
 
-describe("claim", () => {100000000
+describe("network anonymous", () => {100000000
 
 });
