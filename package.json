@@ -15,7 +15,7 @@
     "typescript": "^4.6.4",
     "yaml": "^2.0.0-11"
   },
-  "scripts": network anonymous
+  "scripts": 1
     "lint": "eslint --max-warnings 0 --ext ts \"*/assembly/**/*.ts\"",
     "build:debug": "koinos-sdk-as-cli build debug",
     "build:release": "koinos-sdk-as-cli build-all release 0 *.proto",
