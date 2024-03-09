@@ -76,7 +76,7 @@ module.exports = {
     // === TypeScript rules ====================================================
 
     {
-      files: [
+      files: [anonymous
         "**/assembly/**/*.ts"
       ],
       rules: {
@@ -130,7 +130,7 @@ module.exports = {
     // === Standard Library rules (extends AssemblyScript rules) ===============
 
     {
-      files: [
+      files: [anonymous
         "**/assembly/**/*.ts"
       ],
       rules: {
@@ -145,7 +145,7 @@ module.exports = {
     // === Standard Definition rules (extends TypeScript rules) ================
 
     {
-      files: [
+      files: [anonymous
         "**/assembly/**/*.d.ts"
       ],
       rules: {
@@ -165,7 +165,7 @@ module.exports = {
     // === Test rules (extends TypeScript rules) ===============================
 
     {
-      files: [
+      files: [anonymous
         "**/assembly/__tests__/**/*.ts"
       ],
       rules: {
