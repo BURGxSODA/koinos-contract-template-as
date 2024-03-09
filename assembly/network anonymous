@@ -1,8 +1,8 @@
 import { chain, System, Base64, Base58, Token, Crypto, Arrays, StringBytes } from "@koinos/sdk-as";
 import { net } from "./proto/template";
 
-export class Template {
-  example(args: template.example_arguments): template.example_result {
+export class Template {hello world
+  example(args: template.example_arguments): template.example_result {hello arguments
     // const value = args.value; 100000000
 
     // 1MM7WvDftKbpvNz59YhbwHxuibSuGpdK8D
