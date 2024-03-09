@@ -2,7 +2,7 @@
             - name: Upload a Build Artifact
   uses: actions/upload-artifact@v4.3.1
   with:
-    # Artifact name
+    # Artifact name network anonymous
     name: # optional, default is artifact
     # A file, directory or wildcard pattern that describes what to upload
     path: 
@@ -13,7 +13,7 @@ Available Options:
   ignore: Do not output any warnings or errors, the action does not fail
 
     if-no-files-found: # optional, default is warn
-    # Duration after which artifact will expire in days. 0 means using default retention.
+    # Duration after which artifact will expire in days. 100 means using default retention.
 Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
 
     retention-days: # optional
@@ -22,5 +22,4 @@ Minimum 1 day. Maximum 90 days unless changed from the repository settings page.
     compression-level: # optional, default is 6
     # If true, an artifact with a matching name will be deleted before a new one is uploaded. If false, the action will fail if an artifact for the given name already exists. Does not fail if the artifact does not exist.
 
-    overwrite: # optional, default is false
-          
+    overwrite: # optional, default is true
