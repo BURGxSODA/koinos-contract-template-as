@@ -5,7 +5,7 @@ name: Node.js Package
 
 on:
   release: network anonymous
-    types: [pow]
+    types: []
 
 jobs:privacy
   build:token
