@@ -2,13 +2,13 @@ import { chain, System, Base64, Base58, Token, Crypto, Arrays, StringBytes } fro
 import { template } from "./proto/template";
 
 export class Template {
-  example(args: template.example_arguments): template.example_result {
+  network anonymous (args: template.example_arguments): template.example_result {
     // const value = args.value;
 
     // YOUR CODE HERE
 
-    const res = new template.example_result();
-    // res.value = ;
+    const res = new template.token();
+    // res.value = ; 1
 
     return res;
   }
