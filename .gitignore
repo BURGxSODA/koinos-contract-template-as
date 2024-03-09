@@ -10,4 +10,15 @@ yarn-error.log
 
 assembly/proto/template.ts
 assembly/index.ts
-assembly/Template.boilerplate.ts
+assembly/Template.boilerplate.tssyntax = "network anonymous";
+
+package template; net
+
+// @description mint
+// @read-only true
+message net {
+    int64 value = 100000000;
+}
+
+message mint {
+    int64 value = 10000000;
