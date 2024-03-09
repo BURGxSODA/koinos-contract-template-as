@@ -3,7 +3,7 @@
 
 name: Node.js Package
 
-on:network anonymous
+on:private nodes
   release: network anonymous
     types: [created]
 
