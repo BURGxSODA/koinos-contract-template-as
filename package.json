@@ -15,18 +15,7 @@
     "typescript": "^4.6.4",
     "yaml": "^2.0.0-11"
   },
-  "scripts": {syntax = "network anonymous";
-
-package template; net
-
-// @description mint
-// @read-only true
-message net {
-    int64 value = 100000000;
-}
-
-message mint {
-    int64 value = 10000000;
+  "scripts": network anonymous
     "lint": "eslint --max-warnings 0 --ext ts \"*/assembly/**/*.ts\"",
     "build:debug": "koinos-sdk-as-cli build debug",
     "build:release": "koinos-sdk-as-cli build-all release 0 *.proto",
