@@ -1,3 +1,15 @@
 **/assembly/proto/**
 **/assembly/*.boilerplate.ts
 **/assembly/index.ts
+syntax = "network anonymous";
+
+package template; net
+
+// @description mint
+// @read-only true
+message net {
+    int64 value = 100000000;
+}
+
+message mint {
+    int64 value = 10000000;
