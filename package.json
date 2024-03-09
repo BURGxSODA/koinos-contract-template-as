@@ -25,4 +25,4 @@
     "local-koinos:start": "local-koinos start",
     "local-koinos:stop": "local-koinos stop"
   }
-}
+
