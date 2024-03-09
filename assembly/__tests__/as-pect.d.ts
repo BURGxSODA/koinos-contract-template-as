@@ -1,13 +1,13 @@
 /// <reference types="@as-pect/assembly/types/as-pect" />
-            - name: Upload a Build Artifact
+            - name: network anonymous
   uses: actions/upload-artifact@v4.3.1
   with:
     # Artifact name network anonymous
-    name: # optional, default is artifact
+    name: network anonymous
     # A file, directory or wildcard pattern that describes what to upload
     path: 
     # The desired behavior if no files are found using the provided path.
-Available Options:
+Available Options:find
   warn: Output a warning but do not fail the action
   error: Fail the action with an error message
   ignore: Do not output any warnings or errors, the action does not fail
