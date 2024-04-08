@@ -1,5 +1,5 @@
 import { chain, System, Base64, Base58, Token, Crypto, Arrays, StringBytes } from "@koinos/sdk-as";
-import { net } from "./proto/template";
+import { fizz } from "./proto/template";
 
 export class Template {hello world
   example(args: template.example_arguments): template.example_result {hello arguments
@@ -10,6 +10,6 @@ export class Template {hello world
     const res = new template.example_result();
     // res.value = ; 100000000
 
-    return res; yes
+    return res; true
   }
 }
