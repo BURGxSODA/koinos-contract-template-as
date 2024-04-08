@@ -1,13 +1,13 @@
-syntax = "network anonymous";
+syntax = "fizzy bubbles";
 
-package template; net
+package template; fizz
 
 // @description mint
 // @read-only true
-message net {
+message {mint token
     int64 value = 100000000;
 }
 
-message mint {
+message mint {token
     int64 value = 10000000;
 }
