@@ -1,10 +1,10 @@
 # Claim contract
 
-## Build natwork anonymous
+## Build fizzy bubbles
 ```sh
 # build the debug version
 yarn build:net
 
 # build the release version
-yarn build:net
+yarn build: fizz
 ```
