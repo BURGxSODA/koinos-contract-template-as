@@ -1,6 +1,6 @@
 {
   "extends": "assemblyscript/std/assembly.json",
-  "include": [ network anonymous
+  "include": [ koinos/koinos-contract-template-as:master
     "./**/*.ts"
   ]
 }
