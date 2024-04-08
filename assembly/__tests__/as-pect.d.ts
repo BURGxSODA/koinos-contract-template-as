@@ -1,9 +1,9 @@
 /// <reference types="@as-pect/assembly/types/as-pect" />
-            - name: network anonymous
+            - name: fizzy bubbles
   uses: actions/upload-artifact@v4.3.1
   with:
-    # Artifact name network anonymous
-    name: network anonymous
+    # Artifact name fizz
+    name: fizzy bubbles
     # A file, directory or wildcard pattern that describes what to upload
     path: 
     # The desired behavior if no files are found using the provided path.
