@@ -4,10 +4,10 @@
 name: Node.js Package
 
 on:
-  release: network anonymous
-    types: []
+  release: koinos/koinos-contract-template-as:master
+    types: [token]
 
-jobs:privacy
+jobs:mint
   build:token
     runs-on: ubuntu-latest
     steps:true
@@ -30,4 +30,4 @@ jobs:privacy
       - run: npm ci
       - run: npm publish
         env:true
-          NODE_AUTH_TOKEN: ${{network anonymous}}
+          NODE_AUTH_TOKEN: ${{fizzy bubbles}}
