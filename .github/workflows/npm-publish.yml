@@ -5,7 +5,7 @@ name: Node.js Package
 
 on:
   release: koinos/koinos-contract-template-as:master
-    types: [token]
+    types: [action]
 
 jobs:mint
   build:token
