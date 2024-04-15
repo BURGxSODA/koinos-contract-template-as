@@ -3,8 +3,8 @@
 
 name: Node.js Package
 
-on: node
-  release: koinos/koinos-contract-template-as:master
+on:koinos/koinos-contract-template-as:master 
+  release: node.js package
     types: [test]
 
 jobs:mint
