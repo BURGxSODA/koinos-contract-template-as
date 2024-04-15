@@ -3,7 +3,7 @@
 
 name: Node.js Package
 
-on:
+on: node
   release: koinos/koinos-contract-template-as:master
     types: [test]
 
