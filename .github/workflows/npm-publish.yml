@@ -3,7 +3,7 @@
 
 name: Node.js Package
 
-on: koinos
+on: push
   release: master
     types: [test]
 
